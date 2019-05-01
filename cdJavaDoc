@@ -1,6 +1,30 @@
-import java.io.*;
 
-public class burbuja
+import java.io.*;
+/**
+ * <p>
+ * El siguiente programa esta formado por la clase principal class JavaDoc y por 
+ * metodo estatico burbuja.
+ * </p>
+ * <p>
+ * La funcion del program es ordenar los numero de mayor a menor. Este pide que 
+ * indiques la cantidad de numeros a introdir por teclado, depues debes 
+ * introducir los numeros a ordenar. Obteniendo como resultado los numero 
+ * ordenados de mayor a menor.
+ * </p>
+ * <p>
+ * La clase principal se declaran las variables a utilizar y se piden la 
+ * cantidad de numeros a introducir por teclado ademas de pedir los numeros que
+ * debe de ordenar el programa
+ * </p>
+ * <p>
+ * En la clase static burbuja es comparar los numero para poder asi imprimirlos
+ * de menor a mayor.Imprimiendolos despues.
+ * </p>
+ * @author Carlos Fuentes Puga
+ * @version 1.0
+ */
+
+public class JavaDoc
 {
 public static void main(String arg[]) throws IOException
 {
@@ -20,6 +44,8 @@ arr[i] = Integer.parseInt(in.readLine());
 }
 burbuja(arr);
 }
+
+
 
 static void burbuja(int arreglo[])
 {
